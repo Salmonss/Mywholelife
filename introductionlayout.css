@@ -1,0 +1,66 @@
+body{
+    background-image: url("city.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+    
+}
+
+.box{
+    position: absolute;
+    top:10%;
+    left:20%;
+    width:800px;
+    height: 500px;
+    padding: 80px 40px;
+    background-image: url("city3.gif");
+    background-position: center;
+    background-size: cover;
+    padding: 60px 30px;
+    border-radius: 4%;
+    box-shadow: 8px 8px 50px purple;
+
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px skyblue;
+}
+
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: absolute;
+    top: 92%;
+    left: 35%;
+}
+.box input[type=button] {
+        position: absolute;
+        top:45%;
+        left:40%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: transparent;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+        border-radius: 30px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-decoration: none;
+        font-size: 24px;
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+.box input[type=button]:hover
+      {
+        color: black;
+        background-color: rgb(38, 240, 240) ;
+        box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 40px purple;
+      }
+    

@@ -1,0 +1,98 @@
+/* animated */ 
+*{
+  margin: 0;
+  paddiing: 0;
+}
+
+.start
+{
+  background: black;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container li
+{
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  list-style:none;
+  opacity: 0;
+  background: radial-gradient(rgb(143, 8, 143), transparent, transparent);
+  bottom: 0;
+  left: 10vw;
+  animation: animate 15s linear infinite;
+}
+.container li:nth-last-child(2){
+  left: 37vw;
+  animation-delay: 2s;
+}
+.container li:nth-last-child(3){
+  left: 25vw;
+  animation-delay: 4s;
+}
+.container li:nth-last-child(4){
+  left: 60vw;
+  animation-delay: 6s;
+}
+.container li:nth-last-child(5){
+  left: 75vw;
+  animation-delay: 4s;
+}
+ @keyframes animate {
+  0%{
+    transform: scale(0);
+    opacity: 1;
+    buttom: 0;
+  }
+  100%{
+    transform: scale(10);
+    opacity: 1;
+    buttom: 100vh;
+  }
+ }
+
+ /* Buttons */
+
+ a{
+  position: absolute;
+  top:20%;
+  left:8%;
+  display: inline-block;
+  padding: 15px 30px;
+  color: purple;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+a:hover
+{
+  color: violet;
+  background-color: purple ;
+  box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 40px purple;
+}
+
+
+.hobbies{
+  position: absolute;
+  top:30%;
+  left:8%;
+  display: inline-block;
+  padding: 15px 30px;
+  color: purple;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 24px;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.hobbies:hover
+{
+  color: violet;
+  background-color: purple ;
+  box-shadow: 0 0 10px purple, 0 0 40px purple, 0 0 40px purple;
+}
