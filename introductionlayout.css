@@ -40,10 +40,10 @@ p
     top: 92%;
     left: 35%;
 }
-.box input[type=button] {
+.transition input[type=button] {
         position: absolute;
-        top:45%;
-        left:40%;
+        top:43%;
+        left:55%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: transparent;
         display: inline-block;
@@ -57,7 +57,7 @@ p
         overflow-x: hidden;
         transition: 0.5s;
       }
-.box input[type=button]:hover
+.transition input[type=button]:hover
       {
         color: black;
         background-color: rgb(38, 240, 240) ;

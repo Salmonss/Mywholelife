@@ -1,0 +1,170 @@
+body{
+    background-image: url("city.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100vh;
+    height: 100vh;
+}
+
+
+/* Personalities Layout */
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0,);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 48%;
+    left: 90%;
+    color: white;
+    transform: translate(-50%, -50%) scale(0);
+    background-image: url("city10.gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 30px white;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    text-align: center;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url("circle.png");
+    background-size: cover;
+    color: black;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.popup.active .overlay{
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.buttonn{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("city3.gif");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 35px 35px;
+    color: white;
+    text-shadow: 5px, 5px, 5px , black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow-x: hidden;
+    transition: 0.5;
+    box-shadow: 2px 3px 40px white;
+}
+.buttonn:hover{
+    color:white;
+    background-image: url("city5.gif");
+    box-shadow: 0 0 20px purple ;
+}
+
+/* Hobbies layout */
+
+.popupp .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0,);
+    z-index: 1;
+    display: none;
+}
+
+.popupp .contentt{
+    position: absolute;
+    top: 48%;
+    left: 90%;
+    color: white;
+    transform: translate(-50%, -50%) scale(0);
+    background-image: url("city7.gif");
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 2px 3px 30px white;
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+    text-align: center;
+}
+.popupp .close-btnn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url("circle.png");
+    background-size: cover;
+    color: black;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.popup.activee .overlayy{
+    display: block;
+}
+
+.popupp.activee .contentt{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+
+.buttonnn{
+    position: absolute;
+    top: 33%;
+    left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("city8.gif");
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    padding: 35px 87px;
+    color: white;
+    text-shadow: 5px, 5px, 5px , black;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow-x: hidden;
+    transition: 0.5;
+    box-shadow: 2px 3px 40px white;
+}
+.buttonnn:hover{
+    color:white;
+    background-image: url("city9.gif");
+    box-shadow: 0 0 20px blue ;
+}
