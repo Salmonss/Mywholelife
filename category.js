@@ -4,3 +4,6 @@ function togglePopup(){
 function togglePopupp(){
     document.getElementById("popupp-2"). classList.toggle("activee");
 }
+function togglePopuppp(){
+    document.getElementById("popupp-3"). classList.toggle("activeee");
+}
